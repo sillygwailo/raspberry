@@ -1,10 +1,10 @@
 {
   "domains": [""],
   "globals": {
-    "title": "Richard's Raspberry Pi Adventures",
-    "name": "Richard Eriksson",
+    "name": "Richard's Raspberry Pi Adventures",
+    "author": "Richard Eriksson",
     "twitter": "sillygwailo",
     "site_url": "http://raspberry.justagwailo.com",
-    "site_description": "I live in Vancouver, Canada, where I fix websites."
+    "tagline": "I live in Vancouver, Canada, where I fix websites."
   }
 }
