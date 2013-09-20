@@ -1,2 +1,7 @@
+!= partial("js/moment")
+!= partial("js/typogr")
 each post, slug in public.posts.data
+  if post.date
+    time(datetime="#{ post.date }")
+      != typogr.typogrify(moment(post.date).format('MMMM Do YYYY'))
   != partial("/posts/" + slug, post)
