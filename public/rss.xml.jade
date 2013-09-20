@@ -3,6 +3,7 @@ rss(version='2.0')
   channel  
     title #{ name }
     link #{ site_url }/
+    description #{ tagline }
     each post, slug in public.posts.data
       item
         title #{ post.title }
