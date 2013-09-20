@@ -1,10 +1,10 @@
 {
   "domains": [""],
   "globals": {
-    "title": "My Harp Blog",
-    "name": "Web Engineer &amp; Designer",
-    "twitter": "HarpPlatform",
-    "site_url": "http://example.com",
-    "site_description": "I live in Vancouver, Canada, where I build websites for startups and small "
+    "title": "Richard's Raspberry Pi Adventures",
+    "name": "Richard Eriksson",
+    "twitter": "sillygwailo",
+    "site_url": "http://raspberry.justagwailo.com",
+    "site_description": "I live in Vancouver, Canada, where I fix websites."
   }
 }
