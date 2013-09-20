@@ -7,7 +7,7 @@ html(lang="en")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title #{ name }
     link(rel="stylesheet", href="/assets/css/app.css")
-    link(rel="alternate", type="application/rss+xml", title="#{ name } RSS", href="/rss.xml")
+    link(rel="alternate", type="application/rss+xml", title="#{ name } RSS", href="http://feeds.justagwailo.com/justagwailo/raspberry")
   body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
     article#content
       .container.main-content
@@ -32,7 +32,7 @@ html(lang="en")
             p: small &copy; 2013 #{ author }
           .col-sm-6
             p.pull-right
-              small: a(href="/rss.xml", title="#{ name } RSS feed")
+              small: a(href="http://feeds.justagwailo.com/justagwailo/raspberry", title="#{ name } RSS feed")
                 img.rss-feed(src="/assets/images/feed-icon.png")
                 |  RSS feed
 
