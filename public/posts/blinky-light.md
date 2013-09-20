@@ -10,7 +10,7 @@ It was a fun atmosphere. In [the introductory blog post for the event](http://va
 
 Once hooked back up to the network and headless (not hooked up to a monitor), I was able to SSH through the Vancouver Hack Space's network to the Pi in and download the WebIDE software. Borrowing some lead wires and an LED, and after some initial confusion about where I was to get the Python code responsible, I was able to successfully blink an LED light.
 
-<style>.embed-container {position: relative; padding-bottom: 120%; padding-top: 30px; height: 0; overflow: hidden;} .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='//instagram.com/p/eJYSrlO9Sk/embed/' frameborder='0' scrolling='no' allowtransparency='true'></iframe></div>
+<div class='instagram-embed-container'><iframe src='//instagram.com/p/eJYSrlO9Sk/embed/'></iframe></div>
 
 The next day, I hooked the Raspberry Pi to my TV at home (with the aforementioned composite wire). And it booted!
 
