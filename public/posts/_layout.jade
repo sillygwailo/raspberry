@@ -1,3 +1,4 @@
+include ../_sidebar
 !!!
 html(lang="en")
   head
@@ -32,11 +33,7 @@ html(lang="en")
               a.dsq-brlink(href='http://disqus.com')
 
           .col-sm-offset-1.col-sm-3.aside
-            p: a(href="/"): img.aside-profile-img.aside-img(src="http://www.gravatar.com/avatar/37ed752266cb6c339d3b33013d5afc17.png", alt="#{ author }'s Gravatar")
-            p: strong #{ author }
-            p #{ tagline }
-            p Twitter: 
-              a(href="http://twitter.com/#{ twitter }") @#{ twitter }
+            +profile
     hr
 
     footer
