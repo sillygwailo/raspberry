@@ -1,5 +1,4 @@
 include ../_shared/_sidebar
-include ../_shared/_disqus
 !!!
 html(lang="en")
   head
@@ -19,7 +18,9 @@ html(lang="en")
               time(datetime="#{ date }")
                 != typogr.typogrify(moment(date).format('MMMM Do YYYY'))
             != yield
-            +disqus
+            if locals.disqus_shortname
+              include ../_shared/_disqus
+              +disqus
 
           .col-sm-offset-1.col-sm-3.aside
             +profile
