@@ -5,5 +5,9 @@
   "software": {
     "layout": "_page",
     "title": "Software Installed on my Raspberry Pi"
+  },
+  "404": {
+    "layout": "_page",
+    "title": "404"
   }
 }

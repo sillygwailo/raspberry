@@ -1,1 +1,9 @@
 h1 404
+
+p The page you're looking for does not exist. The following is a list of all posts on the site.
+
+ul(style="list-style: none; padding-left: 0;")
+  each post, slug in public.posts.data
+    li
+      a(href="/posts/"+slug) #{ post.title }
+      | : #{ post.description }
