@@ -1,5 +1,9 @@
 {
   "rss": {
     "layout": false
+  },
+  "software": {
+    "layout": "_page",
+    "title": "Software Installed on my Raspberry Pi"
   }
 }
