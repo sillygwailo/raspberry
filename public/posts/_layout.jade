@@ -17,6 +17,20 @@ html(lang="en")
               time(datetime="#{ date }")
                 != typogr.typogrify(moment(date).format('MMMM Do YYYY'))
             != yield
+            div#disqus_thread
+            script(type='text/javascript')
+              var disqus_shortname = '#{ disqus_shortname }';
+              var disqus_identifier = '#{ disqus_shortname }-#{ current.path.join('-') }';
+              (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            noscript
+              | Please enable JavaScript to view the 
+              a(href='http://disqus.com/?ref_noscript') comments powered by Disqus.
+              a.dsq-brlink(href='http://disqus.com')
+
           .col-sm-offset-1.col-sm-3.aside
             p: a(href="/"): img.aside-profile-img.aside-img(src="http://www.gravatar.com/avatar/37ed752266cb6c339d3b33013d5afc17.png", alt="#{ author }'s Gravatar")
             p: strong #{ author }
