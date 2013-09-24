@@ -1,4 +1,9 @@
 {
+  "shared-folder": {
+    "title": "Shared Folder",
+    "date": "2013-09-24",
+    "description": "I mounted my Raspberry Pi as a shared folder in Mac OS X and link to instructions on how to do so."
+  },
   "blinky-light": {
     "title": "Blinky Light",
     "date": "2013-09-20",
