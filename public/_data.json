@@ -6,6 +6,10 @@
     "layout": "_page",
     "title": "Software Installed on my Raspberry Pi"
   },
+  "books": {
+    "layout": "_page",
+    "title": "Books Read and Consulted about my Raspberry Pi"
+  },
   "404": {
     "layout": "_page",
     "title": "Page Not Found"
