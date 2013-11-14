@@ -9,6 +9,14 @@ html(lang="en")
     title #{ title }
     link(rel="stylesheet", href="/assets/css/app.css")
     link(rel="alternate", type="application/rss+xml", title="#{ name } RSS", href="http://feeds.justagwailo.com/justagwailo/raspberry")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(name="twitter:card" content="summary")
+    meta(name="twitter:site" content="@#{ twitter_site }")
+    meta(name="og:title" content="#{ title }")
+    meta(name="twitter:description" content="#{ description }")
+    meta(name="twitter:creator" content="@#{ twitter }")
+    if image
+      meta(name="twitter:image:src" content="#{ image }")
   body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
     article#content
       .container.main-content
