@@ -24,7 +24,7 @@ html(lang="en")
           .col-sm-8.main
             if date 
               time(datetime="#{ date }")
-                != typogr.typogrify(moment(date).format('MMMM Do YYYY'))
+                != typogr.typogrify(moment(date).format('MMMM Do, YYYY'))
             != yield
             if locals.disqus_shortname
               include ../_shared/_disqus
