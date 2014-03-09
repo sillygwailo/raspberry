@@ -9,3 +9,5 @@ Here is the list of software installed on my unit in chronological order.
 * <code>samba</code> to be able to [mount my Raspberry Pi in OS X Finder](/posts/shared-folder).
 * <code>ufw</code> the Uncomplicated Firewall as instructed in [the Cookbook recipe](/posts/uncomplicated).
 * <code>whois</code> the command line client for [WHOIS](https://en.wikipedia.org/wiki/Whois).
+* [Bluez](http://www.bluez.org/): compiled using the instructions at http://developer.radiusnetworks.com/2013/10/09/how-to-make-an-ibeacon-out-of-a-raspberry-pi.html
+* [<code>wicd-curses</code>](https://launchpad.net/wicd)
