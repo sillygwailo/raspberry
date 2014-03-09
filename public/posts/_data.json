@@ -1,4 +1,9 @@
 {
+  "failed-dongle-connections": {
+    "title": "Failed Dongle Connections",
+    "date": "2014-03-08",
+    "description": "Notes on failed attempts at connecting my Wi-Fi and Bluetooth dongles for my Raspberry Pi."
+  },
   "uncomplicated": {
     "title": "Uncomplicated",
     "date": "2013-10-02",
