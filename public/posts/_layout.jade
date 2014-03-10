@@ -17,6 +17,8 @@ html(lang="en")
     meta(name="twitter:creator" content="@#{ twitter }")
     if image
       meta(name="twitter:image:src" content="#{ image }")
+    script(type="text/javascript", src="/assets/js/jquery-2.1.0.min.js")
+    script(type="text/javascript", src="/assets/js/jquery.timeago.js")
   body(class="page-#{ current.path[0] } #{ current.path.join('-') }")
     article#content
       .container.main-content
