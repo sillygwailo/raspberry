@@ -1,4 +1,10 @@
 {
+  "almost-successful-bluetooth-dongle": {
+    "title": "Almost Successful Bluetooth Dongle",
+    "date": "2014-04-03",
+    "description": "Notes on an almost successful attempt at connecting a newer Bluetooth dongle for my Raspberry Pi.",
+    "image": "http://raspberry.justagwailo.com/assets/images/bluetooth4.jpg"
+  },
   "successful-wi-fi-dongle-connection": {
     "title": "Successful Wi-Fi Dongle Connection",
     "date": "2014-03-13",
